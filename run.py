@@ -17,7 +17,7 @@ while not ready:
         print(f"Voicebank '{voicebank}' does not exist in the 'voicebanks' directory.")
     else:
         with open(voicebank_path / "Resources" / "Desc" / "Desc.json") as f:
-        json.load()
-        print(f"Using voicebank: {}")
+        data = json.load(f)
+        print(f"Using voicebank: {data["Title"]}")
         ready = True
     
