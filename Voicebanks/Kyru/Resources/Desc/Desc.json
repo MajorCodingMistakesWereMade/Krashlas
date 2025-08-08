@@ -1,5 +1,8 @@
 {
+  "Path": "Voicebanks/Kyru",
   "Title": "Kýru",
   "Subtitle": "Voiced by the creator himself, Major!",
-  "Desc": "Male voicebank, built for choirical singing." 
+  "Author": "MajorBulletMagnet (github.com/MajorCodingMistakesWereMade)",
+  "Version": "0.0",
+  "Desc": "Male voicebank, built for choirical singing."
 }

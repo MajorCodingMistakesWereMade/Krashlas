@@ -1,5 +1,8 @@
 {
+  "Path": "Voicebanks/Wikipedie",
   "Title": "Wikipedie",
   "Subtitle": "Ripped from Wikipedia Czech pronounciation articles.",
+  "Author": "Wikipedia",
+  "Version": "0.0",
   "Desc": "Robotic and emotionless, mostly so I have a way to test something without recording my voice yet." 
 }

@@ -11,3 +11,4 @@ Eventually I want to make it Midi compatible but for now my goal is essential, "
 
 ## Requirements
 [scikit-maad](https://scikit-maad.github.io/install.html) for audio editing.
+```pip install scikit-maad```

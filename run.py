@@ -1,4 +1,4 @@
-# from maad import sound, util
+from maad import sound, util
 import os
 from pathlib import Path
 import json
@@ -16,8 +16,11 @@ while not ready:
     if not voicebank_path.exists():
         print(f"Voicebank '{voicebank}' does not exist in the 'voicebanks' directory.")
     else:
-        with open(voicebank_path / "Resources" / "Desc" / "Desc.json") as f:
-        json.load()
-        print(f"Using voicebank: {}")
-        ready = True
+            with open(voicebank_path / "Resources" / "Desc" / "Desc.json", 'r', encoding='utf-8') as f:
+                voicebankDesc = json.load(f)
+                title, author = voicebankDesc['Title'],  voicebankDesc['Author']
+
+                print("Using voicebank: " + title + " by " + author)
+                ready = True
+input("meow")
     
