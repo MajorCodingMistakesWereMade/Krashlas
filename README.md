@@ -1,5 +1,6 @@
-# Krashlas
-### Releasing in 100 years.
+![Alt text](krashlas logo.png)
+
+### Kráshlas
 ## For all your Czech Vocaloid needs. 
 Based off of Vocaloid, made specifically to be more compatible for Czech and general Slavic phonetics via crossfading sounds, allowing for long consonants such as in words like "zmrzlina". 
 Pronounced kras-HLAS, from Czech word "krásný" meaning beautiful and "hlas" meaning "voice"
@@ -11,4 +12,5 @@ Eventually I want to make it Midi compatible but for now my goal is essential, "
 
 ## Requirements
 [scikit-maad](https://scikit-maad.github.io/install.html) for audio editing.
+
 ```pip install scikit-maad```
