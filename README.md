@@ -1,4 +1,4 @@
-![Alt text](krashlas logo.png)
+![Alt text](krashlasLogo.png)
 
 ### Kráshlas
 ## For all your Czech Vocaloid needs. 
