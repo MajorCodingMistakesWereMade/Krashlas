@@ -1,6 +1,8 @@
 {
   "Title": "Wikipedie",
   "Subtitle": "Ripped from Wikipedia Czech pronounciation articles.",
+  "Version": "0.0.0",
+  "Language": "CZ",
   "Author": "Wikipedia",
   "Desc": "Robotic and emotionless, mostly so I have a way to test something without recording my voice yet." 
 }

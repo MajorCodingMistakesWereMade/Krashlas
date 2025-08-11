@@ -16,8 +16,13 @@ while not ready:
     if not voicebank_path.exists():
         print(f"Voicebank '{voicebank}' does not exist in the 'voicebanks' directory.")
     else:
-        with open(voicebank_path / "Resources" / "Desc" / "Desc.json") as f:
-        data = json.load(f)
-        print(f"Using voicebank: {data["Title"]}")
-        ready = True
+        with open(voicebank_path / "Resources" / "Desc" / "Desc.json", "r", "utf-8") as f:
+            data = json.load(f)
+            print(f"Using voicebank: {data["Title"]}")
+            ready = True
     
+song = input("What song do you want to use?")
+SavedSongs = script_directory / "SavedSongs"
+song_path = SavedSongs / f"{song}.json"
+
+# A.start A.Mid B.Mid C.Mid C.End

@@ -1,0 +1,37 @@
+{
+  "Info": {
+    "Title": "Čaj",
+    "Author": "MajorBulletMagnet (@MajorCodingMistakesWereMade)",
+    "ReleaseDate": "11.8.2025"
+  },
+  "Song": [
+    {
+      "Coordinates": {
+        "Start": {
+          "X": 0,
+          "Y": 0
+        },
+        "End": {
+          "X": 2,
+          "Y": 0
+        },
+        "CurveIntensity": 0.5
+      },
+      "Sound": "čaj"
+    },
+    {
+      "Coordinates": {
+        "Start": {
+          "X": 3,
+          "Y": 3
+        },
+        "End": {
+          "X": 4,
+          "Y": 2
+        },
+        "CurveIntensity": 0.5
+      },
+      "Sound": "jsem"
+    }
+  ]
+}
