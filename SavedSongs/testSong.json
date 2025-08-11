@@ -6,31 +6,43 @@
   },
   "Song": [
     {
-      "Coordinates": {
-        "Start": {
+      "Coordinates": [
+        {
           "X": 0,
-          "Y": 0
+          "Y": 0,
+          "CurveIntensity": 0.5
         },
-        "End": {
+        {
+          "X": 1,
+          "Y": 0,
+          "CurveIntensity": 0.5
+        },
+        {
           "X": 2,
-          "Y": 0
-        },
-        "CurveIntensity": 0.5
-      },
+          "Y": 1,
+          "CurveIntensity": 0.5
+        }
+      ],
       "Sound": "čaj"
     },
     {
-      "Coordinates": {
-        "Start": {
-          "X": 3,
-          "Y": 3
+    "Coordinates": [
+        {
+          "X": 0,
+          "Y": 0,
+          "CurveIntensity": 0.5
         },
-        "End": {
-          "X": 4,
-          "Y": 2
+        {
+          "X": 1,
+          "Y": 0,
+          "CurveIntensity": 0.5
         },
-        "CurveIntensity": 0.5
-      },
+        {
+          "X": 2,
+          "Y": 1,
+          "CurveIntensity": 0.5
+        }
+      ],
       "Sound": "jsem"
     }
   ]
