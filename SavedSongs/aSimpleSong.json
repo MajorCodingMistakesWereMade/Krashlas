@@ -1,0 +1,49 @@
+{
+  "Info": {
+    "Title": "A Simple Song",
+    "Author": "MajorBulletMagnet (@MajorCodingMistakesWereMade)",
+    "ReleaseDate": "11.8.2025"
+  },
+  "Song": [
+    {
+      "Coordinates": [
+        {
+          "X": 0,
+          "Y": 0,
+          "CurveIntensity": 0.5
+        },
+        {
+          "X": 1,
+          "Y": 0,
+          "CurveIntensity": 0.5
+        },
+        {
+          "X": 2,
+          "Y": 1,
+          "CurveIntensity": 0.5
+        }
+      ],
+      "Sound": "aůaů"
+    },
+    {
+    "Coordinates": [
+        {
+          "X": 0,
+          "Y": 0,
+          "CurveIntensity": 0.5
+        },
+        {
+          "X": 1,
+          "Y": 0,
+          "CurveIntensity": 0.5
+        },
+        {
+          "X": 2,
+          "Y": 1,
+          "CurveIntensity": 0.5
+        }
+      ],
+      "Sound": "ůaůa"
+    }
+  ]
+}
